@@ -1,0 +1,79 @@
+body {
+   background-color: hsl(185, 75%, 39%);
+   font-family: 'Kumbh Sans', sans-serif;
+}
+
+.card {
+    max-width: 350px;
+    margin: 1rem auto 2rem auto;
+    background-color: white;
+    border-radius: 10px;
+    /* padding: 2rem; */
+}
+
+.img-bg img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 130px;
+    width: 100%;
+}
+
+/* .img-victor-wrapper {
+    background-color: white;
+
+} */
+
+.img-victor {
+    /* position: relative;
+    top: -3.5rem; */
+    /* left: 35%; */
+    display: block;
+    margin: -3.5rem auto 0 auto;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: relative;
+    z-index: 9999;
+    object-fit: contain;
+}
+
+.name-wrapper {
+    text-align: center;
+    color: gray;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.name {
+    font-weight: bold;
+    color: black;
+    margin-right: 0.4rem;
+}
+
+.location {
+    text-align: center;
+    color: gray;
+}
+
+.bottom {
+    border-top: 1px solid lightgray;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.col {
+    text-align: center;
+    color: gray;
+    font-size: 10px;
+    letter-spacing: 0.1rem;
+}
+
+.number {
+    display: block;
+    color: black;
+    font-weight: 700;
+    font-size: initial;
+    letter-spacing: initial;
+    margin-bottom: 0.4rem;
+}
